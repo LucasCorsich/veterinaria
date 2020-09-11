@@ -250,3 +250,7 @@ form input[type="submit"]:hover{
 ul{
     list-style: none;
 }
+
+h1{
+	text-align: center;
+}
