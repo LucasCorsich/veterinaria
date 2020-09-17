@@ -192,8 +192,8 @@ footer{
 	margin: auto;
 }
 .profesional img{
-	height: 60%;
-	width: 60%;
+	height: 100%;
+	width: 100%;
 	display: flex;
 	justify-items: center;
 }
@@ -201,6 +201,7 @@ footer{
 .descripcion-profesional{
 	display: flex;
 	flex-direction: column;
+	padding: 20px;
 	width: 90%;
 }
 
