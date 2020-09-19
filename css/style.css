@@ -118,7 +118,7 @@ h2{
 }
 
 .turno:hover{
-	width: 90%;
+	transform: scale(1.1);
 }
 
 iframe{
