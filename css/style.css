@@ -8,7 +8,7 @@ body{
 
 header{
 	margin: auto;
-	background-color: #d1d1e9;
+	background-color: #6246ea;
 	width: 100%;	
 	}
 
@@ -22,8 +22,9 @@ header{
 .grid-container{
 	margin-top: 20px;
 	display: grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: auto auto auto auto;
 }
+
 
 nav{
 	font-size: 1.2em;
@@ -32,14 +33,24 @@ nav{
 
 nav a{
 	display: flex;
-	color: black;
+	color: #FFFFFF;
 	margin-right: 1em;
 	justify-content: space-around;
 }
 
+.button{
+	text-decoration: none;
+}
+
+.button:hover{
+	transform: scale(1.1);
+	text-decoration: underline;
+	color: #757575;
+}
+
 @media only screen and (min-width: 768px){
 	header{
-		background-color: #d1d1e9;
+		/* background-color: #d1d1e9; */
 		width: 100%;
 		display: flex;
 		justify-content: space-between;
@@ -64,7 +75,6 @@ nav a{
 	nav a{
 		display: flex;
 		justify-content: space-around;
-		color: black;
 		margin-right: 1em;
 		margin-bottom: 0;
 		text-decoration: none;
@@ -83,9 +93,9 @@ nav a{
 
 #servicios{
 	grid-template-columns: 2;
-	background-color: #6246ea;
+	background-color: #D1C4E9;
 	padding: 1px 20px 20px 20px;
-	color: #fff;
+	color: #212121;
 }
 
 h2{
@@ -120,10 +130,10 @@ h2{
 	width: 50%;
 	text-decoration: none;
 	font-weight: 600;
-	background-color: #d1d1e9;
+	background-color: #607D8B;
 	margin-top: 20px;
 	padding: 10px;
-	color: #6246ea;
+	color: #FFFFFF;
 }
 
 .turno:hover{
@@ -175,9 +185,14 @@ footer{
     padding: 5px;
     background-color: #6246ea;
     text-align: center;
-    color: white;
+	color: white;
+	display: grid;
+	grid-template-columns: auto auto auto;
 }
 
+footer a{
+	color: white;
+}
 
 .fa{
     color: white;
@@ -287,6 +302,7 @@ h1{
 		grid-template-rows: auto auto;
 		width: 100%;
 	}
+}
 
 @media only screen and (min-width: 1024px){
 	#galeria{
